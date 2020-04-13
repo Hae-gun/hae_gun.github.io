@@ -5,16 +5,16 @@
   
 
   
-  <title>Hello World | 기술블로그</title>
+  <title>hello-world | 기술블로그</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="Programmers AlgorithmFunction 정수 N개의 합  정수 n개가 주어졌을 때, n개의 합을 구하는 함수를 작성하시오.  작성해야 하는 함수는 다음과 같다.  Java: long sum(int[] a); (클래스 이름: Test)  a: 합을 구해야 하는 정수 n개가 저장되어 있는 배열 (0 ≤ a[i] ≤ 1,000,000, 1 ≤ n">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
+<meta property="og:title" content="hello-world">
 <meta property="og:url" content="https://hae-gun.github.io/hae_gun.github.io/2020/04/13/hello-world/index.html">
 <meta property="og:site_name" content="기술블로그">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="Programmers AlgorithmFunction 정수 N개의 합  정수 n개가 주어졌을 때, n개의 합을 구하는 함수를 작성하시오.  작성해야 하는 함수는 다음과 같다.  Java: long sum(int[] a); (클래스 이름: Test)  a: 합을 구해야 하는 정수 n개가 저장되어 있는 배열 (0 ≤ a[i] ≤ 1,000,000, 1 ≤ n">
 <meta property="article:published_time" content="2020-04-13T14:33:36.717Z">
-<meta property="article:modified_time" content="2020-04-13T14:33:36.717Z">
+<meta property="article:modified_time" content="2020-04-13T15:39:51.161Z">
 <meta property="article:author" content="Hae Geun">
 <meta name="twitter:card" content="summary">
   
@@ -83,7 +83,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      hello-world
     </h1>
   
 
@@ -91,19 +91,40 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <h1 id="Programmers-Algorithm"><a href="#Programmers-Algorithm" class="headerlink" title="Programmers Algorithm"></a>Programmers Algorithm</h1><h2 id="Function"><a href="#Function" class="headerlink" title="Function"></a><a href="https://www.acmicpc.net/step/5" target="_blank" rel="noopener">Function</a></h2><ol>
+<li><p>정수 N개의 합</p>
+<ul>
+<li><p>정수 n개가 주어졌을 때, n개의 합을 구하는 함수를 작성하시오.</p>
+</li>
+<li><p>작성해야 하는 함수는 다음과 같다.</p>
+</li>
+<li><p>Java: <code>long sum(int[] a);</code> (클래스 이름: Test)</p>
+<ul>
+<li><code>a</code>: 합을 구해야 하는 정수 <code>n</code>개가 저장되어 있는 배열 (0 ≤ a[i] ≤ 1,000,000, 1 ≤ n ≤ 3,000,000)</li>
+<li>리턴값: <code>a</code>에 포함되어 있는 정수 <code>n</code>개의 합</li>
+</ul>
+</li>
+<li><p>풀이</p>
+<ul>
+<li><code>for each</code> 구문을 이용하여 <code>int</code> 배열 <code>a</code> 를 탐색.</li>
+<li>탐색한 각 <code>a</code>의 값을 <code>ans</code>에 더해준다.</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">long</span> <span class="title">sum</span><span class="params">(<span class="keyword">int</span>[] a)</span> </span>&#123;</span><br><span class="line">        </span><br><span class="line">        </span><br><span class="line">        <span class="keyword">long</span> ans = <span class="number">0</span>;</span><br><span class="line">        <span class="comment">// for each 구문을 이용</span></span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i : a)&#123;</span><br><span class="line">            <span class="comment">// ans 에 a 배열에 있는 수를 모두 더한다.</span></span><br><span class="line">         	ans += i;   </span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>셀프 넘버</p>
+<ul>
+<li>셀프 넘버는 1949년 인도 수학자 D.R. Kaprekar가 이름 붙였다. 양의 정수 n에 대해서 d(n)을 n과 n의 각 자리수를 더하는 함수라고 정의하자. 예를 들어, d(75) = 75+7+5 = 87이다.</li>
+<li>양의 정수 n이 주어졌을 때, 이 수를 시작해서 n, d(n), d(d(n)), d(d(d(n))), …과 같은 무한 수열을 만들 수 있다. </li>
+<li>예를 들어, 33으로 시작한다면 다음 수는 33 + 3 + 3 = 39이고, 그 다음 수는 39 + 3 + 9 = 51, 다음 수는 51 + 5 + 1 = 57이다. 이런식으로 다음과 같은 수열을 만들 수 있다.</li>
+<li>33, 39, 51, 57, 69, 84, 96, 111, 114, 120, 123, 129, 141, …</li>
+<li>n을 d(n)의 생성자라고 한다. 위의 수열에서 33은 39의 생성자이고, 39는 51의 생성자, 51은 57의 생성자이다. 생성자가 한 개보다 많은 경우도 있다. 예를 들어, 101은 생성자가 2개(91과 100) 있다. </li>
+<li>생성자가 없는 숫자를 셀프 넘버라고 한다. 100보다 작은 셀프 넘버는 총 13개가 있다. 1, 3, 5, 7, 9, 20, 31, 42, 53, 64, 75, 86, 97</li>
+<li>10000보다 작거나 같은 셀프 넘버를 한 줄에 하나씩 출력하는 프로그램을 작성하시오.</li>
+</ul>
+</li>
+</ol>
 
       
     </div>
@@ -115,6 +136,20 @@
   </div>
   
     
+<nav id="article-nav">
+  
+    <a href="/2020/04/14/myblog/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          myblog
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
   
 </article>
 
@@ -147,7 +182,11 @@
       <ul>
         
           <li>
-            <a href="/2020/04/13/hello-world/">Hello World</a>
+            <a href="/2020/04/14/myblog/">myblog</a>
+          </li>
+        
+          <li>
+            <a href="/2020/04/13/hello-world/">hello-world</a>
           </li>
         
       </ul>
